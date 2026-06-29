@@ -119,7 +119,7 @@
             </div>
 
             <!-- Bouton menu mobile -->
-            <button id="menu-toggle" class="lg:hidden text-black text-2xl w-10 h-10 flex items-center justify-center">
+            <button id="menu-toggle" class="lg:hidden text-orange-600 text-2xl w-10 h-10 flex items-center justify-center">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
@@ -282,7 +282,7 @@
                 <h4 class="text-orange-600 font-bold uppercase tracking-widest text-xs">Navigation</h4>
                 <ul class="space-y-3 sm:space-y-4 font-semibold">
                     <li><a href="{{ url('/') }}" class="hover:text-orange-600 transition">Accueil</a></li>
-                    <li><a href="{{ url('service') }}" class="hover:text-orange-600 transition">Services</a></li>
+                    <li><a href="{{ url('services') }}" class="hover:text-orange-600 transition">Services</a></li>
                     <li><a href="{{ url('projets') }}" class="hover:text-orange-600 transition">Projets</a></li>
                     <li><a href="{{ url('about') }}" class="hover:text-orange-600 transition">À propos</a></li>
                 </ul>

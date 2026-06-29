@@ -59,7 +59,7 @@
                 <a href="{{ url('contact') }}" class="ml-4 px-6 py-2 bg-orange-600 text-white text-sm font-bold rounded-full hover:bg-orange-600 transition shadow-lg shadow-slate-200">Contact</a>
             </div>
 
-            <button id="menu-toggle" class="lg:hidden text-black text-2xl w-10 h-10 flex items-center justify-center">
+            <button id="menu-toggle" class="lg:hidden text-orange-600 text-2xl w-10 h-10 flex items-center justify-center">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
