@@ -119,8 +119,8 @@
             </div>
 
             <!-- Bouton menu mobile -->
-             <button id="menu-toggle" class="lg:hidden bg-white text-orange text-2xl w-10 h-10 flex items-center justify-center">
-                <i class="fas fa-bars"></i>
+              <button id="menuToggle" class="md:hidden text-orange-600 focus:outline-none p-2 -mr-2" aria-label="Menu">
+                <i class="fas fa-bars text-xl" id="menuIcon"></i>
             </button>
         </div>
 
