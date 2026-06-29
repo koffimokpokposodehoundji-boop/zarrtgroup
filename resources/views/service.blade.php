@@ -48,7 +48,7 @@
     <nav class="fixed top-0 w-full z-50 bg-black text-black py-3 sm:py-4 px-4 sm:px-6 border-b border-black/10 backdrop-blur-md bg-opacity-95">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl">Z</div>
+                <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl text-white">Z</div>
                 <span class="text-lg sm:text-xl font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
             </div>
             <div class="hidden lg:flex items-center gap-1">

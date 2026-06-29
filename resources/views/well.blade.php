@@ -97,7 +97,7 @@
         <div class="orb orb-3"></div>
     </div>
 
-    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300">
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 ">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
             <div class="flex items-center gap-3">
                 <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl text-white">Z</div>
@@ -119,7 +119,7 @@
             </div>
 
             <!-- Bouton menu mobile -->
-             <button id="menu-toggle" class="lg:hidden text-orange-600 text-2xl w-10 h-10 flex items-center justify-center">
+             <button id="menu-toggle" class="lg:hidden bg-black text-orange-600 text-2xl w-10 h-10 flex items-center justify-center">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
