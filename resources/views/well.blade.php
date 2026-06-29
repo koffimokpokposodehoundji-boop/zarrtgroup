@@ -107,7 +107,7 @@
             <!-- Menu Desktop -->
             <div class="hidden lg:flex items-center gap-1">
                 <div class="vignette-innovation px-4 py-1.5 rounded-full flex items-center gap-2.5 mx-4 text-xs font-bold text-slate-600 shadow-sm border border-orange-600">
-                    <i class="fas fa-sparkles text-blue-500"></i>
+                    <i class="fas fa-sparkles text-orange-600"></i>
                     <span>Innovation depuis 2025</span>
                 </div>
 
@@ -119,7 +119,7 @@
             </div>
 
             <!-- Bouton menu mobile -->
-            <button id="menu-toggle" class="lg:hidden text-white text-2xl w-10 h-10 flex items-center justify-center">
+            <button id="menu-toggle" class="lg:hidden text-black text-2xl w-10 h-10 flex items-center justify-center">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
@@ -273,7 +273,7 @@
             <div class="space-y-5 sm:space-y-6">
                 <div class="flex items-center gap-3">
                     <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl text-white">Z</div>
-                    <span class="text-lg sm:text-xl font-bold tracking-tight text-white">ZARRT GROUP</span>
+                    <span class="text-lg sm:text-xl font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
                 </div>
                 <p class="leading-relaxed font-medium">Partenaire de confiance pour votre transformation digitale et technologique.</p>
             </div>

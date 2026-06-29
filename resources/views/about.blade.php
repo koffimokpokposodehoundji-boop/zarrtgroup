@@ -180,7 +180,7 @@
                 <div class="sm:col-span-2 md:col-span-1 space-y-5">
                     <div class="flex items-center gap-2.5">
                         <div class="w-9 h-9 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg text-white">Z</div>
-                        <span class="text-lg font-bold tracking-tight text-white">ZARRT GROUP</span>
+                        <span class="text-lg font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
                     </div>
                     <p class="text-slate-400 text-sm leading-relaxed">
                         Votre partenaire de confiance pour la transformation digitale et les solutions technologiques innovantes au Togo.
@@ -221,12 +221,12 @@
                         </li>
                         <li class="flex items-center gap-3">
                             <i class="fas fa-phone text-orange-500 flex-shrink-0"></i>
-                            <a href="tel:+22870212677" class="hover:text-white transition-colors">+228 70 21 26 77</a>
+                            <a href="tel:+22870212677" class="hover:text-white transition-colors">+22893374475</a>
                         </li>
                         <li class="flex items-start gap-3">
                             <i class="fas fa-envelope text-orange-500 flex-shrink-0 mt-0.5"></i>
                             <a href="mailto:contact@zarrtgroup-sarl.tg" class="hover:text-white transition-colors break-all">
-                                contact@zarrtgroup-sarl.tg
+                                zarrtgroup@gmail.com
                             </a>
                         </li>
                     </ul>

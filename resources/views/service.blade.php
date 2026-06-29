@@ -51,15 +51,15 @@
                 <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl">Z</div>
                 <span class="text-lg sm:text-xl font-bold tracking-tight">ZARRT GROUP</span>
             </div>
-            <div class="hidden lg:flex items-center gap-8 text-sm font-medium">
-                <a href="{{ url('/') }}" class="text-orange-600 hover:text-white transition">Accueil</a>
-                <a href="{{ url('/services') }}" class="text-orange-600 font-bold border-b-2 border-orange-600 pb-1">Services</a>
-                <a href="projets" class="text-orange-600 hover:text-orange transition">Projets</a>
-                <a href="#" class="text-orange-600 hover:text-orange transition">À propos</a>
-                <a href="#contact" class="bg-orange-600 px-5 py-2 rounded-full hover:bg-orange-600 transition">Contact</a>
+            <div class="hidden lg:flex items-center gap-1">
+               <a href="{{ url('/') }}" class="px-4 py-2 text-sm text-orange-600 font-bold rounded-full">Accueil</a>
+                <a href="{{ url('services') }}" class="px-4 py-2 text-sm text-orange-600 font-semibold hover:text-orange-600 transition">Services</a>
+                <a href="{{ url('projets') }}" class="px-4 py-2 text-sm text-orange-600 font-semibold hover:text-orange-600 transition">Projets</a>
+                <a href="{{ url('a-propos') }}" class="px-4 py-2 text-sm text-orange-600 font-semibold hover:text-orange-600 transition">À propos</a>
+                <a href="{{ url('contact') }}" class="ml-4 px-6 py-2 bg-orange-600 text-white text-sm font-bold rounded-full hover:bg-orange-600 transition shadow-lg shadow-slate-200">Contact</a>
             </div>
 
-            <button id="menu-toggle" class="lg:hidden text-white text-2xl w-10 h-10 flex items-center justify-center">
+            <button id="menu-toggle" class="lg:hidden text-black text-2xl w-10 h-10 flex items-center justify-center">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
