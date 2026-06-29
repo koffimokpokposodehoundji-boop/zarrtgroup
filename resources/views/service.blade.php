@@ -64,12 +64,14 @@
             </button>
         </div>
 
-        <div id="mobile-menu" class="lg:hidden absolute top-full left-0 w-full bg-[#001529]/98 backdrop-blur-lg px-6 py-6 flex flex-col gap-2 shadow-xl">
-            <a href="{{ url('/') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">Accueil</a>
-            <a href="{{ url('/services') }}" class="px-4 py-3 text-base text-orange-500 font-bold rounded-xl bg-white/5">Services</a>
-            <a href="projets" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">Projets</a>
-            <a href="#" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">À propos</a>
-            <a href="#contact" class="mt-2 px-4 py-3 bg-orange-600 text-white text-base font-bold rounded-xl text-center">Contact</a>
+        <<!-- Menu mobile déroulant -->
+        <div id="mobile-menu"
+             class="lg:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-lg px-6 py-5 flex flex-col gap-1 shadow-xl border-t border-white/10">
+            <a href="{{ url('/') }}"        class="px-4 py-3 text-base text-orange-500 font-bold   rounded-xl hover:bg-white/10 transition">Accueil</a>
+            <a href="{{ url('services') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10 transition">Services</a>
+            <a href="{{ url('projets') }}"  class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10 transition">Projets</a>
+            <a href="{{ url('a-propos') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10 transition">À propos</a>
+            <a href="{{ url('contact') }}"  class="mt-2 px-4 py-3 bg-orange-600 text-white text-base font-bold rounded-xl text-center hover:bg-orange-700 transition">Contact</a>
         </div>
     </nav>
 

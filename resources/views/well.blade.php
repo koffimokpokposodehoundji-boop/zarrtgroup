@@ -97,7 +97,7 @@
         <div class="orb orb-3"></div>
     </div>
 
-    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300  bg-black text-white">
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
             <div class="flex items-center gap-3">
                 <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl text-white">Z</div>
@@ -119,18 +119,20 @@
             </div>
 
             <!-- Bouton menu mobile -->
-            <button id="menuToggle" class="md:hidden text-orange-600 p-2 -mr-2 focus:outline-none" aria-label="Menu">
+            <button id="menu-toggle" class="lg:hidden text-orange-600 text-2xl w-10 h-10 flex items-center justify-center">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
 
         <!-- Menu Mobile (déroulant) -->
-        <div id="mobile-menu" class="lg:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-lg px-6 py-6 flex flex-col gap-2 shadow-xl">
-            <a href="{{ url('/') }}" class="px-4 py-3 text-base text-white font-bold rounded-xl hover:bg-white/10">Accueil</a>
-            <a href="{{ url('services') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">Services</a>
-            <a href="{{ url('projets') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">Projets</a>
-            <a href="{{ url('a-propos') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">À propos</a>
-            <a href="{{ url('contact') }}" class="mt-2 px-4 py-3 bg-orange-600 text-white text-base font-bold rounded-xl text-center">Contact</a>
+
+        <div id="mobile-menu"
+             class="lg:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-lg px-6 py-5 flex flex-col gap-1 shadow-xl border-t border-white/10">
+            <a href="{{ url('/') }}"        class="px-4 py-3 text-base text-orange-500 font-bold   rounded-xl hover:bg-white/10 transition">Accueil</a>
+            <a href="{{ url('services') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10 transition">Services</a>
+            <a href="{{ url('projets') }}"  class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10 transition">Projets</a>
+            <a href="{{ url('a-propos') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10 transition">À propos</a>
+            <a href="{{ url('contact') }}"  class="mt-2 px-4 py-3 bg-orange-600 text-white text-base font-bold rounded-xl text-center hover:bg-orange-700 transition">Contact</a>
         </div>
     </nav>
 
