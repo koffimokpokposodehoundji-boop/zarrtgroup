@@ -119,7 +119,7 @@
             </div>
 
             <!-- Bouton menu mobile -->
-             <button id="menu-toggle" class="lg:hidden bg-black text-orange-600 text-2xl w-10 h-10 flex items-center justify-center">
+             <button id="menu-toggle" class="lg:hidden bg-white text-orange text-2xl w-10 h-10 flex items-center justify-center">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
