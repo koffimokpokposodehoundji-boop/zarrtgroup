@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactez-nous | SARL WELLE</title>
+    <title>Contactez-nous | ZARRT GROUP</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -59,12 +59,12 @@
                     <div class="glass-card p-10 rounded-3xl text-center hover:scale-105">
                         <div class="w-14 h-14 bg-orange-600 rounded-2xl flex items-center justify-center text-white mx-auto mb-8 shadow-lg shadow-blue-100"><i class="fas fa-location-dot text-xl"></i></div>
                         <h3 class="font-bold text-xl mb-3 text-slate-900">Adresse</h3>
-                        <p class="text-slate-500 text-sm">Tsévié, Quartier Administratif, Togo.</p>
+                        <p class="text-slate-500 text-sm">Lomé, Togo</p>
                     </div>
                     <div class="glass-card p-10 rounded-3xl text-center hover:scale-105">
                         <div class="w-14 h-14 bg-orange-600 rounded-2xl flex items-center justify-center text-white mx-auto mb-8 shadow-lg shadow-green-100"><i class="fas fa-phone text-xl"></i></div>
                         <h3 class="font-bold text-xl mb-3 text-slate-900">Téléphone</h3>
-                        <p class="text-slate-500 text-sm">+228 70 21 26 77</p>
+                        <p class="text-slate-500 text-sm">+22893374475</p>
                     </div>
                     <div class="glass-card p-10 rounded-3xl text-center hover:scale-105">
                         <div class="w-14 h-14 bg-orange-600 rounded-2xl flex items-center justify-center text-white mx-auto mb-8 shadow-lg shadow-purple-100"><i class="fas fa-envelope text-xl"></i></div>

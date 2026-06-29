@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À Propos | SARL WELLE</title>
+    <title>À Propos | ZARRT GROUP</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-xl  text-white">Z</div>
                 <span class="text-xl font-bold tracking-tight text-white">ZARRT GROUP</span>
-            </div>     
+            </div>
             <div class="hidden md:flex items-center space-x-8 text-sm  text-orange-600">
                 <a href="{{ route('home') }}" class="hover:text-orange-600">Accueil</a>
                 <a href="{{ route('projects.index') }}" class="hover:text-orange-600">Projets</a>
@@ -57,7 +57,7 @@
                 </div>
             </div>
 
-           
+
 
         {{-- SECTION NOS VALEURS (BAS DE PAGE) --}}
             <div class="mt-32 border-t border-slate-100 pt-20">
@@ -67,8 +67,8 @@
                 </div>
 
                 {{-- Première Ligne --}}
-                
-                
+
+
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                     <div class="bg-orange p-10 rounded-[2.5rem] border border-orange-600 shadow-sm hover:shadow-xl transition-all duration-300 group">
                         <div class="w-14 h-14 bg-orange-600 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-orange-300">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
 
-                
+
     </main>
 {{-- FOOTER NOIR --}}
     <footer class="bg-[#0A0A0B] text-white pt-20 pb-10">
@@ -107,7 +107,7 @@
                     <div class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-xl  text-white">Z</div>
                 <span class="text-xl font-bold tracking-tight text-white">ZARRT GROUP</span>
-            </div>     
+            </div>
                     <p class="text-slate-400 text-sm leading-relaxed">
                         Votre partenaire de confiance pour la transformation digitale et les solutions technologiques innovantes au Togo.
                     </p>

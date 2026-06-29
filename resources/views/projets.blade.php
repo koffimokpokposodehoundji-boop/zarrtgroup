@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nos Réalisations - TechnoSolutions</title>
+    <title>Nos Réalisations - ZARRT GROUP</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -90,7 +90,7 @@
                 @forelse($projets as $projet)
                     @php
                         // On transforme la catégorie (ex: "Génie Civil") en slug (ex: "genie-civil") pour le JS
-                        $categorySlug = Str::slug($projet->categorie); 
+                        $categorySlug = Str::slug($projet->categorie);
                     @endphp
 
                     <div class="project-card bg-white rounded-3xl" data-category="{{ $categorySlug }}" data-aos="fade-up">
@@ -105,7 +105,7 @@
                             </div>
                             <h3 class="text-2xl font-bold tracking-tight">{{ $projet->titre }}</h3>
                             <p class="text-slate-600 text-sm leading-relaxed">{{ $projet->description }}</p>
-                            
+
                             <ul class="text-sm font-semibold text-slate-700 space-y-3 pt-4 border-t border-slate-100">
                                 <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Statut : Réalisé</li>
                                 <li><i class="fas fa-calendar-alt text-blue-500 mr-2"></i>Date : {{ $projet->created_at->format('d/M/Y') }}</li>
