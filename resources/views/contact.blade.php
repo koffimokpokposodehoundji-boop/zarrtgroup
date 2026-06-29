@@ -86,7 +86,7 @@
             <nav class="max-w-7xl mx-auto px-4 md:px-6 py-3.5 flex items-center justify-between">
                 <a href="{{ route('home') }}" class="flex items-center gap-2.5">
                     <div class="w-9 h-9 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg text-white">Z</div>
-                    <span class="text-lg font-bold tracking-tight text-white">ZARRT GROUP</span>
+                    <span class="text-lg font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
                 </a>
 
                 <!-- Desktop -->
@@ -157,12 +157,12 @@
                     <p class="text-slate-500 text-xs md:text-sm">+228 93 37 44 75</p>
                 </div>
 
-                <div class="glass-card p-6 md:p-10 rounded-2xl md:rounded-3xl text-center">
+                <div class="glass-card p-6 md:p-10 rounded-2xl md:rounded-3xl text-center col-span-2 lg:col-span-1 ">
                     <div class="w-11 h-11 md:w-14 md:h-14 bg-orange-600 rounded-xl md:rounded-2xl flex items-center justify-center text-white mx-auto mb-4 md:mb-6 shadow-lg">
                         <i class="fas fa-envelope text-lg md:text-xl"></i>
                     </div>
                     <h3 class="font-bold text-base md:text-xl mb-1 md:mb-2 text-slate-900">Email</h3>
-                    <p class="text-slate-500 text-xs md:text-sm break-all">zarrtgroup@gmail.com</p>
+                    <p class="text-slate-500 text-xs md:text-sm ">zarrtgroup@gmail.com</p>
                 </div>
 
                 <div class="glass-card p-6 md:p-10 rounded-2xl md:rounded-3xl text-center col-span-2 lg:col-span-1">

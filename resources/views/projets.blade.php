@@ -123,7 +123,7 @@
             <!-- Logo -->
             <div class="flex items-center gap-2">
                 <div class="w-9 h-9 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg">Z</div>
-                <span class="text-lg font-bold tracking-tight text-white">ZARRT GROUP</span>
+                <span class="text-lg font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
             </div>
 
             <!-- Desktop links -->
@@ -154,7 +154,7 @@
     <!-- ════════════════════════════ HERO ════════════════════════════ -->
     <header class="hero-bg pt-32 pb-16 md:pt-40 md:pb-24 text-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 md:px-6 text-center" data-aos="zoom-out">
-            <span class="inline-block text-xs font-bold tracking-widest text-orange-400 uppercase mb-4">Portfolio</span>
+            <span class="inline-block text-xs font-bold tracking-widest text-orange-400 uppercase mb-4"></span>
             <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tighter mb-5 leading-tight">
                 Nos Projets
             </h1>
@@ -245,7 +245,7 @@
         <div class="max-w-7xl mx-auto px-4 md:px-6 text-center">
             <div class="flex items-center justify-center gap-2.5 mb-4">
                 <div class="w-8 h-8 bg-orange-600 rounded flex items-center justify-center font-bold text-white text-sm">Z</div>
-                <span class="text-lg font-bold text-white">ZARRT GROUP</span>
+                <span class="text-lg font-bold text-orange-600">ZARRT GROUP</span>
             </div>
             <p class="text-xs text-orange-600">© 2026 ZARRT GROUP. Tous droits réservés.</p>
         </div>

@@ -101,7 +101,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
             <div class="flex items-center gap-3">
                 <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl text-white">Z</div>
-                <span class="text-lg sm:text-xl font-bold tracking-tight text-orange">ZARRT GROUP</span>
+                <span class="text-lg sm:text-xl font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
             </div>
 
             <!-- Menu Desktop -->
@@ -301,9 +301,9 @@
             <div class="space-y-5 sm:space-y-6">
                 <h4 class="text-orange-600 font-bold uppercase tracking-widest text-xs">Contact</h4>
                 <ul class="space-y-3 sm:space-y-4 font-medium">
-                    <li class="flex items-center gap-3"><i class="fas fa-map-marker-alt text-orange-500"></i>Lomé, Togo</li>
-                    <li class="flex items-center gap-3"><i class="fas fa-phone text-orange-500"></i>+22893374475</li>
-                    <li class="flex items-center gap-3 break-all"><i class="fas fa-envelope text-orange-500"></i>zarrtgroup@gmail.com</li>
+                    <li> Lomé, Togo</li>
+                    <li>+22893374475</li>
+                    <li>zarrtgroup@gmail.com</li>
                 </ul>
             </div>
         </div>
