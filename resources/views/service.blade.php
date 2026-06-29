@@ -49,7 +49,7 @@
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="flex items-center gap-3">
                 <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl">Z</div>
-                <span class="text-lg sm:text-xl font-bold tracking-tight">ZARRT GROUP</span>
+                <span class="text-lg sm:text-xl font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
             </div>
             <div class="hidden lg:flex items-center gap-1">
                <a href="{{ url('/') }}" class="px-4 py-2 text-sm text-orange-600 font-bold rounded-full">Accueil</a>
