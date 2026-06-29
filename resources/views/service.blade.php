@@ -44,37 +44,32 @@
     </style>
 </head>
 <body class="antialiased">
- <!-- ════════════════════════════ NAV ════════════════════════════ -->
-    <nav class="fixed top-0 w-full z-50 bg-[#001529] text-white py-3.5 px-4 md:px-6 border-b border-gray-800 backdrop-blur-sm bg-opacity-95">
+
+    <nav class="fixed top-0 w-full z-50 bg-black text-white py-3 sm:py-4 px-4 sm:px-6 border-b border-white/10 backdrop-blur-md bg-opacity-95">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <!-- Logo -->
-            <div class="flex items-center gap-2">
-                <div class="w-9 h-9 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg">Z</div>
-                <span class="text-lg font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg sm:text-xl">Z</div>
+                <span class="text-lg sm:text-xl font-bold tracking-tight">ZARRT GROUP</span>
+            </div>
+            <div class="hidden lg:flex items-center gap-1">
+               <a href="{{ url('/') }}" class="px-4 py-2 text-sm text-orange-600 font-bold rounded-full">Accueil</a>
+                <a href="{{ url('services') }}" class="px-4 py-2 text-sm text-orange-600 font-semibold hover:text-orange-600 transition">Services</a>
+                <a href="{{ url('projets') }}" class="px-4 py-2 text-sm text-orange-600 font-semibold hover:text-orange-600 transition">Projets</a>
+                <a href="{{ url('a-propos') }}" class="px-4 py-2 text-sm text-orange-600 font-semibold hover:text-orange-600 transition">À propos</a>
+                <a href="{{ url('contact') }}" class="ml-4 px-6 py-2 bg-orange-600 text-white text-sm font-bold rounded-full hover:bg-orange-600 transition shadow-lg shadow-slate-200">Contact</a>
             </div>
 
-            <!-- Desktop links -->
-            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
-                <a href="{{ url('/') }}" class="text-orange-500 hover:text-white transition">Accueil</a>
-                <a href="{{ url('/services') }}" class="text-orange-500 hover:text-white transition">Services</a>
-                <a href="{{ url('/projets') }}" class="text-orange-500 font-bold border-b-2 border-orange-400 pb-1">Projets</a>
-                <a href="{{ url('/a-propos') }}" class="text-orange-500 hover:text-white transition">À propos</a>
-                <a href="{{ url('/contact') }}" class="bg-orange-600 px-5 py-2 rounded-full hover:bg-orange-700 transition text-white">Contact</a>
-            </div>
-
-            <!-- Hamburger mobile -->
-            <button id="menuToggle" class="md:hidden text-white focus:outline-none p-2 -mr-2" aria-label="Menu">
-                <i class="fas fa-bars text-xl" id="menuIcon"></i>
+            <button id="menu-toggle" class="lg:hidden text-orange-600 text-2xl w-10 h-10 flex items-center justify-center">
+                <i class="fas fa-bars"></i>
             </button>
         </div>
 
-        <!-- Mobile dropdown -->
-        <div class="mobile-menu md:hidden" id="mobileMenu">
-            <a href="{{ url('/') }}">Accueil</a>
-            <a href="{{ url('/services') }}">Services</a>
-            <a href="{{ url('/projets') }}" style="color:white;font-weight:700;">Projets</a>
-            <a href="{{ url('/a-propos') }}">À propos</a>
-            <a href="{{ url('/contact') }}" class="cta">Contact</a>
+        <div id="mobile-menu" class="lg:hidden absolute top-full left-0 w-full bg-[#001529]/98 backdrop-blur-lg px-6 py-6 flex flex-col gap-2 shadow-xl">
+            <a href="{{ url('/') }}" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">Accueil</a>
+            <a href="{{ url('/services') }}" class="px-4 py-3 text-base text-orange-500 font-bold rounded-xl bg-white/5">Services</a>
+            <a href="projets" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">Projets</a>
+            <a href="#" class="px-4 py-3 text-base text-white font-semibold rounded-xl hover:bg-white/10">À propos</a>
+            <a href="#contact" class="mt-2 px-4 py-3 bg-orange-600 text-white text-base font-bold rounded-xl text-center">Contact</a>
         </div>
     </nav>
 
