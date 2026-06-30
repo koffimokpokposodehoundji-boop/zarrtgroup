@@ -73,10 +73,10 @@
         }
 
         .nav-scrolled {
-            background: black !important;
+            background: rgba(0, 0, 0, 0.95) !important;
             backdrop-filter: blur(15px);
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
-            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.1);
         }
 
         /* Menu mobile */
@@ -119,8 +119,8 @@
             </div>
 
             <!-- Bouton menu mobile -->
-              <button id="menuToggle" class="lg:hidden text-orange-600 focus:outline-none p-2 -mr-2" aria-label="Menu">
-                <i class="fas fa-bars"></i>
+            <button id="menu-toggle" class="lg:hidden text-orange-600 focus:outline-none p-2 -mr-2 relative z-50 flex items-center justify-center" aria-label="Menu">
+                <i class="fas fa-bars text-xl text-orange-600"></i>
             </button>
         </div>
 
@@ -152,7 +152,7 @@
                     <span class="text-center">Découvrir nos réalisations</span> <i class="fas fa-arrow-right text-sm"></i>
                 </a>
                 <a href="contact" class="px-6 sm:px-10 py-3.5 sm:py-4 bg-orange-600 border border-orange-600 text-white font-bold rounded-2xl text-base sm:text-lg hover:bg-orange-600 transition text-center">
-                    Nous contacter
+                    <span class="text-center">Nous contacter</span>
                 </a>
             </div>
         </div>
