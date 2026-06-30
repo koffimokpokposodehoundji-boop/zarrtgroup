@@ -120,7 +120,7 @@
 
             <!-- Bouton menu mobile -->
               <button id="menuToggle" class="lg:hidden text-orange-600 focus:outline-none p-2 -mr-2" aria-label="Menu">
-                <i class="fas fa-bars text-xl" id="menuIcon"></i>
+                <i class="fas fa-bars"></i>
             </button>
         </div>
 
