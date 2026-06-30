@@ -104,7 +104,6 @@
                 <span class="text-lg sm:text-xl font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
             </div>
 
-            <!-- Menu Desktop -->
             <div class="hidden lg:flex items-center gap-1">
                 <div class="vignette-innovation px-4 py-1.5 rounded-full flex items-center gap-2.5 mx-4 text-xs font-bold text-slate-600 shadow-sm border border-orange-600">
                     <i class="fas fa-sparkles text-orange-600"></i>
@@ -118,13 +117,13 @@
                 <a href="{{ url('contact') }}" class="ml-4 px-6 py-2 bg-orange-600 text-white text-sm font-bold rounded-full hover:bg-orange-600 transition shadow-lg shadow-slate-200">Contact</a>
             </div>
 
-            <!-- Bouton menu mobile -->
             <button id="menu-toggle" class="lg:hidden focus:outline-none p-2 -mr-2 relative z-50 flex items-center justify-center" aria-label="Menu" style="background: transparent !important;">
-                <i class="fas fa-bars text-2xl" style="color: #ea580c !important; display: inline-block !important;"></i>
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ea580c" class="w-7 h-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
             </button>
         </div>
 
-        <!-- Menu mobile déroulant -->
         <div id="mobile-menu"
              class="lg:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-lg px-6 py-5 flex flex-col gap-1 shadow-xl border-t border-white/10">
             <a href="{{ url('/') }}"        class="px-4 py-3 text-base text-orange-500 font-bold   rounded-xl hover:bg-white/10 transition">Accueil</a>
@@ -329,14 +328,21 @@
             }
         });
 
-        // Menu mobile toggle
+        // Menu mobile toggle avec changement dynamique d'icône SVG
         const menuToggle = document.getElementById('menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
         menuToggle.addEventListener('click', () => {
             mobileMenu.classList.toggle('open');
-            const icon = menuToggle.querySelector('i');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
+
+            if (mobileMenu.classList.contains('open')) {
+                // Icône "Fermer" (X)
+                menuIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />';
+            } else {
+                // Icône "Menu" (Bars)
+                menuIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />';
+            }
         });
     </script>
 </body>
