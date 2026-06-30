@@ -62,7 +62,7 @@
             <!-- Logo -->
             <div class="flex items-center gap-2.5">
                 <div class="w-9 h-9 bg-orange-600 rounded-lg flex items-center justify-center font-bold text-lg text-white">Z</div>
-                <span class="text-lg font-bold tracking-tight text-white">ZARRT GROUP</span>
+                <span class="text-lg font-bold tracking-tight text-orange-600">ZARRT GROUP</span>
             </div>
 
             <!-- Desktop -->
@@ -74,7 +74,7 @@
             </div>
 
             <!-- Hamburger -->
-            <button id="menuToggle" class="md:hidden text-white p-2 -mr-2 focus:outline-none" aria-label="Menu">
+            <button id="menuToggle" class="md:hidden text-orange-600 p-2 -mr-2 focus:outline-none" aria-label="Menu">
                 <i class="fas fa-bars text-xl" id="menuIcon"></i>
             </button>
         </nav>
